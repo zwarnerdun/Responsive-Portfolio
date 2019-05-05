@@ -1,0 +1,60 @@
+.header{
+    background: white;
+    position: relative;
+    padding-left: 100px;
+    padding-right: 140px;
+    width: 920;
+    float: left;
+
+}
+
+#name{
+    background: teal;
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+    /* padding-bottom: 10px; */
+    padding-left: 100;
+    float: left;
+}
+
+#menu{
+
+float: right;
+padding-left: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  @media screen and (max-width: 768px){
+    .header{
+      width: 50%;
+      height: 100%;
+    }
+ 
+     #menu{
+      width: 30%;
+     }
+  }
+    /* Add other media sections for other devices and adjust values accordingly */

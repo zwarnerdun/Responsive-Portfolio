@@ -1,0 +1,92 @@
+
+
+#contact{
+    font-size: 24px;
+    color: teal;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#contactName{
+padding-bottom: 40px;
+margin-bottom: 20px;
+
+}
+
+#txtName{
+    width: 910px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#email{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+#txtEmail{
+    width: 910px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#message{
+    margin-top: 5px;
+}
+#txtMessage{
+    width: 910px;
+    height: 100px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#submit{
+ background: teal;
+ color: white;
+ font-weight: bold;
+}
+
+.wrapper{
+    clear: both;
+    position: relative;
+    background: grey;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    float: left;
+}
+
+.content{
+    width: 920px;
+    height: 500px;
+    background: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+}
+@media screen and (max-width:1200px){
+    body{
+      width: 90%;
+   }
+ 
+   .wrapper{
+     width: 90%;
+ }
+ .content{
+ 
+     width: 90%;
+ }
+ 
+ #txtName{
+    width: 80%;
+ }
+ #txtEmail{
+    width: 80%;
+ }
+ 
+ #txtMessage{
+    width: 80%;
+ }
+ 
+}
+ /* Add other media sections for other devices and adjust values accordingly */
